@@ -1,26 +1,20 @@
-# Step 1 Setup 
+# Step 4 ReAct Prompting
 
+Try out ReAct Prompting. 
+See how this popular prompting technique can be used 
+to create a more reliable and robust chatbot.
 
-Set up the Arc Framework locally on your machine.
-
-#### 1. Setup
-Quick Start https://eclipse.dev/lmos/docs/arc/quickstart/
-
-Documentation https://eclipse.dev/lmos/arc/ 
-
-#### 2. Modify Prompt
-Modify the prompt in to respond with "Hello, AI Barcamp Attendee!" 
-when the user types "hello".
-
-#### 3. Open Chat Interface
-
-To open the chat interface, navigate to the following URL in your browser:
 
 ```
-https://eclipse.dev/lmos/chat/index.html?agentUrl=http://localhost:8080
+Use the following format in your response:
+
+Question: the input question you must answer.
+Thought: you should always think about what to do.
+Action: the action to take, should be one of [get_time, get_weather, get_location].
+Observation: the result of the action.
+(Note: this Thought/Action/Observation can repeat N times)
+Thought: I now know the final answer.
+Final Answer: the final answer to the original input question.
 ```
 
-#### 4. Type "hello"
-
-Type "hello" in the chat interface and press Enter. 
-The chatbot should respond with "Hello, AI Barcamp Attendee!".
+Read https://www.promptingguide.ai/techniques/react for more information.
