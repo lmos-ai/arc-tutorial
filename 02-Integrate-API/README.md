@@ -1,26 +1,21 @@
-# Step 1 Setup 
+# Step 2 Integrate an API.
 
+APIs can be integrated into an Agent in different ways.
 
-Set up the Arc Framework locally on your machine.
+Injecting API calls into the prompt function.
 
-#### 1. Setup
-Quick Start https://eclipse.dev/lmos/docs/arc/quickstart/
-
-Documentation https://eclipse.dev/lmos/arc/ 
-
-#### 2. Modify Prompt
-Modify the prompt in to respond with "Hello, AI Barcamp Attendee!" 
-when the user types "hello".
-
-#### 3. Open Chat Interface
-
-To open the chat interface, navigate to the following URL in your browser:
-
-```
-https://eclipse.dev/lmos/chat/index.html?agentUrl=http://localhost:8080
+```kts
+agent {
+    name = "weather"
+    description = "Agent that provides weather data."
+    prompt { 
+        val data = httpGet()
+        """ Use the following data to generate an answer -> $data""" 
+    }
+}
 ```
 
-#### 4. Type "hello"
 
-Type "hello" in the chat interface and press Enter. 
-The chatbot should respond with "Hello, AI Barcamp Attendee!".
+Injecting API calls into a function.
+
+See https://eclipse.dev/lmos/docs/arc/dsl/defining_functions/
