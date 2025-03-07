@@ -17,6 +17,13 @@ https://www.jetbrains.com/idea/download/?section=mac
 
 Documentation https://eclipse.dev/lmos/docs/arc/cli/
 
+Add OpenAI API key:
+```
+arc set ARC_MODEL gpt-4o-mini
+arc set ARC_CLIENT openai 
+arc set ARC_AI_KEY xxx 
+```
+
 
 #### 2. Run Agent Server
 

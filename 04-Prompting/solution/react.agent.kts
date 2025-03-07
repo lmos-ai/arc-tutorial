@@ -3,7 +3,7 @@
 // SPDX-License-Identifier: Apache-2.0
 
 agent {
-    name = "assistant-agent"
+    name = "react-agent"
     description = "A helpful assistant that can provide information and answer questions."
     model { "GPT-4o" }
     tools = AllTools
