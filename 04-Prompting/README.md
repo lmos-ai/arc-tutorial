@@ -1,10 +1,15 @@
-# Step 4 ReAct Prompting
+# Exercise 4 - Prompting
 
-Try out ReAct Prompting. 
-See how this popular prompting technique can be used 
-to create a more reliable and robust chatbot.
+There are many prompting techniques that can be used to help improve 
+the reliability and robustness of the LLM.
+
+2 of the most popular prompting techniques are:
+
+- ReAct Prompting - https://www.promptingguide.ai/techniques/react
+- Few-Shot Prompting - https://www.promptingguide.ai/techniques/fewshot
 
 
+Example of ReAct Prompting:
 ```
 Use the following format in your response:
 
@@ -17,4 +22,22 @@ Thought: I now know the final answer.
 Final Answer: the final answer to the original input question.
 ```
 
-Read https://www.promptingguide.ai/techniques/react for more information.
+
+Example of Few-Shot Prompting:
+```
+You are a helful assistant that can answer questions about the weather.
+
+
+Examples:
+1. What is the weather in New York?
+Answer: The weather in New York is 75 degrees and sunny.
+
+2. What is the weather in London?
+Answer: The weather in London is 60 degrees and rainy.
+
+```
+
+
+## Goal
+
+Try out one of the prompting techniques and see how it can improve the performance of your Agent.
