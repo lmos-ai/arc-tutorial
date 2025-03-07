@@ -17,13 +17,22 @@ agent {
     name = "weather"
     description = "Agent that provides weather data."
     prompt { 
-        val data = httpGet()
+        val data = httpGet("my-api")
         """ Use the following data to generate an answer -> $data""" 
     }
 }
 ```
 
 2. Injecting API calls into a function.
+
+```kts
+function(
+    name = "get_data_from_api",
+    description = "Returns some data",
+) { 
+    httpGet("my-api")
+}
+```
 
 See https://eclipse.dev/lmos/docs/arc/dsl/defining_functions/
 
