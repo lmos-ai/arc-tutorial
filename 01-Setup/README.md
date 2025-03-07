@@ -24,3 +24,9 @@ https://eclipse.dev/lmos/chat/index.html?agentUrl=http://localhost:8080
 
 Type "hello" in the chat interface and press Enter. 
 The chatbot should respond with "Hello, AI Barcamp Attendee!".
+
+
+## Goal
+
+The goal of this exercise set up the Arc Framework environment on your local machine and 
+modify the prompt to respond with "Hello, AI Barcamp Attendee!" when the user types "hello".

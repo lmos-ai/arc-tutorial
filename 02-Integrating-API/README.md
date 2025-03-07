@@ -19,3 +19,9 @@ agent {
 Injecting API calls into a function.
 
 See https://eclipse.dev/lmos/docs/arc/dsl/defining_functions/
+
+## Goal
+
+The goal of this exercise set up integrate an API that is 
+used to generate a response in the prompt function.
+
