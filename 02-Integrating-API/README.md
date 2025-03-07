@@ -1,8 +1,16 @@
 # Step 2 Integrate an API.
 
+## Goal
+
+The goal of this exercise set up integrate an API that is
+used to generate a response in the prompt function.
+
+
+## Instructions
+
 APIs can be integrated into an Agent in different ways.
 
-Injecting API calls into the prompt function.
+1. Injecting API calls into the prompt function.
 
 ```kts
 agent {
@@ -15,13 +23,9 @@ agent {
 }
 ```
 
-
-Injecting API calls into a function.
+2. Injecting API calls into a function.
 
 See https://eclipse.dev/lmos/docs/arc/dsl/defining_functions/
 
-## Goal
 
-The goal of this exercise set up integrate an API that is 
-used to generate a response in the prompt function.
 

@@ -1,5 +1,12 @@
 # Exercise 4 - Prompting
 
+
+## Goal
+
+Try out one of the prompting techniques and see how it can improve the performance of your Agent.
+
+## Instructions
+
 There are many prompting techniques that can be used to help improve 
 the reliability and robustness of the LLM.
 
@@ -37,7 +44,3 @@ Answer: The weather in London is 60 degrees and rainy.
 
 ```
 
-
-## Goal
-
-Try out one of the prompting techniques and see how it can improve the performance of your Agent.
