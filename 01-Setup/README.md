@@ -34,7 +34,7 @@ arc run agents
 ```
 
 #### 3. Modify Prompt
-Modify the prompt, located in the `assistant.agent.kts`, to respond with "Hello, AI Barcamp Attendee!" 
+Modify the prompt, located in the file `agents/assistant.agent.kts`, to respond with "Hello, AI Barcamp Attendee!" 
 when the user types "hello".
 
 
