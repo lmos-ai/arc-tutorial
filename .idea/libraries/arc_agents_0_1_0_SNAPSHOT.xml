@@ -4,6 +4,8 @@
       <root url="jar://$PROJECT_DIR$/lib/arc-agents-0.1.0-SNAPSHOT.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/arc-assistants-0.1.0-SNAPSHOT.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/arc-scripting-0.1.0-SNAPSHOT.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/arc-reader-html-0.1.0-SNAPSHOT.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/arc-result-0.1.0-SNAPSHOT.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
