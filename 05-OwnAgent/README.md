@@ -8,7 +8,7 @@ Use your new skills to implement your own agent that has a special expertise! Yo
 
 Think of a nice use case for an agent and implement your own agent.
 
-Once done, create a pull request on GitHub against https://github.com/hsudbrock/lmos-barcamp-agents/tree/main/agents.
+Once done, create a pull request on GitHub against https://github.com/lmos-ai/lmos-barcamp-agents/tree/main/agents (details below).
 
 ## Ideas for Tools
 
@@ -55,3 +55,10 @@ Here are some ideas for agents that can be built quickly to give you a starting 
 - Quote Finder - Fetches inspirational quotes based on themes or keywords
 - Color Palette Suggester - Generates color combinations using a color API based on a base color
 - Markdown Formatter - Converts plain text to properly formatted Markdown
+
+## Share your agent on github
+
+Share your agent by creating a pull request on https://github.com/lmos-ai/lmos-barcamp-agents/tree/main/agents:
+- Create a new folder in the `agents` directory with the name of your agent
+- Put your `*.agent.kts` and `*.functions.kts` files into that directory
+- Add an `agent.yaml` file to the directory, with file contents like in https://github.com/lmos-ai/lmos-barcamp-agents/blob/main/agents/meal-agent/agent.yaml (this file provides instructions routing to your agent in a multi-agent setup)
